@@ -1,1 +1,11 @@
+//KASUS 2
+//Si pitik turunlah 30, mati 1 tinggal si mboknya
+for ($i = 30; $i >= 1; $i--) {
+    if ($i == 1) {
+        echo "Anak ayam turunlah $i, mati 1 tinggal induknya<br>";
+    } else {
+        echo "Anak ayam turunlah $i, mati 1 tinggal ".($i - 1)."<br>";
+    }
+}
+echo "<hr>";
 
